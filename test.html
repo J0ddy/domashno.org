@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/styles/tailwind.css" rel="stylesheet">
+    <link href="/src/styles/styles.css" rel="stylesheet">
+    <title>Domashno.org — ВКУСНИЯТ ЖИВОТ НА СЕЛО</title>
+</head>
+<body>
+<!-- Navbar -->
+<header class="header sticky top-0 shadow-md flex bg-white m-5 ml-10 mr-10 rounded-xl border-2 border-primary border-solid border-opacity-30">
+    <!-- burger -->
+    <a href="" class="lg:hidden flex items-center justify-center bg-primary text-white hover:bg-white hover:text-primary duration-100 pl-4 pr-3">
+      <svg class="h-8 p-1" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-bars fa-w-14 fa-9x"><path fill="currentColor" d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z" class=""></path></svg>
+    </a>
+  
+    <div class="w-full flex items-center justify-between px-8">
+      <!-- Logo -->
+      <h1 class="ml-5 lg:ml-0">
+          <a href="">
+            <img src="/src/img/domashno-logo.png" draggable="true" class="lg:w-72 h-14 p-2 bg" alt="Domashno.org"/>
+          </a>
+      </h1>
+  
+      <!-- Navigation -->
+      <nav class="nav ?hidden lg:block font-semibold text-lg absolute top-full left-0 lg:relative lg:top-auto w-full">
+          <ul class="flex flex-col lg:flex-row items-center justify-center text-center bg-gray-100 text-gray-900 lg:bg-transparent lg:text-black">
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer active">
+                <a href="#about">За Нас</a>
+              </li>
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer">
+                <a href="#products">Продукти</a>
+              </li>
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer">
+                <a href="#volunteers">Доброволците</a>
+              </li>
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer">
+                <a href="#village">Селото</a>
+              </li>
+          </ul>
+      </nav>
+  
+      <!-- Social --->
+      <div class="w-3/12 flex justify-end">
+          <a href="https://www.facebook.com/domashno.org" target="_blank" >
+              <svg alt="Facebook" fill="#3B5998" height=24 viewBox="0 0 16 16" width=24 xmlns=http://www.w3.org/2000/svg><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+          </a>
+      </div>
+    </div>
+</header>
+
+<!-- About -->
+<section id="about" class="">
+    <div class="flex justify-center m-20 mt-5 shadow-sm rounded-xl bg-hero text-white bg-no-repeat bg-center bg-cover">
+        <div class="m-20 pt-20 pb-20 text-center">
+            <h1 class="text-2xl text-center font-bold">ДОМАШНО - ВКУСНИЯТ ЖИВОТ НА СЕЛО</h1>
+            <h2 class="pt-3 text-xl font-semibold"></h2>
+            <a href="#about"><button class="mt-5 bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-green-600 rounded-lg hover:bg-green-100 hover:shadow-xl duration-200">Повече за Нас</button></a>
+            <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-green-600 rounded-lg hover:bg-green-100 hover:shadow-xl duration-200">Продукти</button>
+        </div>
+    </div>
+</section>
+
+<!-- About -->
+<section class="text-gray-600 body-font" id="about">
+    <div class="container px-5 py-24 mx-auto flex flex-col">
+        <h1 class="text-center text-2xl font-semibold">За Нас</h1>
+      <div class="lg:w-4/6 mx-auto">
+        <div class="flex flex-col sm:flex-row mt-10">
+          <div class="sm:w-1/3 text-center sm:pr-8 sm:py-8">
+            <div class="flex flex-col items-center text-center justify-center">
+                <img alt="content" class="object-cover object-center h-full w-full rounded-lg" src="/src/img/boyan-ani.jpg">
+            </div>
+          </div>
+          <div class="sm:w-2/3 sm:pl-8 sm:py-8 sm:border-l border-gray-200 sm:border-t-0 border-t mt-4 pt-4 sm:mt-0 text-center sm:text-left">
+            <p class="leading-relaxed text-lg mb-4">Ние сме двойка, която живее на село, далеч от изкуствената и отровна храна в магазините.
+                Правим си храни и напитки от <strong>собствени ниви</strong>, <strong>лозя</strong>, <strong>зеленчукова</strong>, <strong>овошна градина</strong>, <strong>диви плодове</strong> и <strong>билки</strong>.
+                Отглеждаме няколко сорта <strong>грозде</strong>, <strong>лимец</strong>, <strong>пшеница</strong>, <strong>царевица</strong>, <strong>захарна тръстика</strong>, <strong>слънчоглед</strong>, <strong>плодове и зеленчуци</strong>.
+            </p>
+            <button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-green-600 rounded-lg hover:bg-green-100 hover:shadow-xl duration-200" id="interview-button">БНР РАДИО ИНТЕРВЮ</button>
+            <a href="http://agro-journal.com/chisto-zemedelie-s-domashno-org/" target="_blank"><button class="bg-green-200 px-5 py-3 text-sm shadow-sm font-medium tracking-wider text-green-600 rounded-lg hover:bg-green-100 hover:shadow-xl duration-200">СТАТИЯ ЗА НАС</button></a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container px-5 py-24 mx-auto">
+        <div class="flex flex-wrap justify-center -mx-4 -mb-10 text-center">
+          <div class="sm:w-1/3 mb-10 px-4">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover h-full w-full" src="/src/img/wine.jpg">
+            </div>
+            <p class="leading-relaxed text-lg">Произвеждаме вино, брашно, шарлан, оцет, петмез, сладка, сиропи и други.
+                Това от което имаме излишък разменяме или предлагаме на фестивали и фермерски пазари, лични доставки и с куриер.
+            </p>
+          </div>
+          <div class="sm:w-1/3 mb-10 px-4">
+            <div class="rounded-lg h-64 overflow-hidden">
+              <img alt="content" class="object-cover object-center h-full w-full" src="/src/img/basket-of-products.jpg">
+            </div>
+            <p class="leading-relaxed text-lg">НЕ изполваме изкуствени препарати и консерванти! НЕ използваме и НЕ желаем пари от никакви програми!
+                В домa ни в село Средно Градище (Чирпанско) в полите на Средна Гора, гостуват доброволци от България и цял свят с който взаимно споделяме опит.
+            </p>
+            <button></button> 
+          </div>
+        </div>
+      </div>
+</section>
+
+
+<section id="products">
+
+</section>
+
+
+<!-- Footer -->
+<footer class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img src="/src/img/domashno-logo.png" draggable="false" class="lg:w-72 h-14 p-2 bg" alt="Domashno.org"/>
+        </a>
+        <p class="mt-2 text-sm text-gray-400 text-left">- Вкусният Живот на Село</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">КАТЕГОРИИ</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">За Нас</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Продукти</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Доброволците</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Селото</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">СОЦИАЛНИ</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="https://www.facebook.com/domashno.org" class="text-gray-600 hover:text-gray-800">Facebook</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">СВЪРЖЕТЕ СЕ С НАС</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="https://www.facebook.com/domashno.org/" class="text-gray-600 hover:text-gray-800">Facebook</a>
+            </li>
+            <li>
+              <a href="mailto:boyan@domashno.org" class="text-gray-600 hover:text-gray-800">Имейл: boyan@domashno.org</a>
+            </li>
+            <li>
+              <a href="tel:+359000000000" class="text-gray-600 hover:text-gray-800">Телефон: +359 000 000 000</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-100">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Domashno.org —
+          <a href="https://www.joddy.dev" class="text-gray-600 ml-1" target="_blank">Site by joddy.dev</a>
+        </p>
+      </div>
+    </div>
+</footer>
+
+
+<!-- Interview Modal -->
+<div class="hidden fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true" id="interview-modal">
+    <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+      <div class="fixed inset-0 bg-gray-500 bg-opacity-75 transition-opacity" aria-hidden="true" id="interview-modal-bg"></div>
+      <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+      <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+        <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+          <div class="sm:flex sm:items-start">
+            <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+              <h3 class="text-lg leading-6 font-medium text-gray-900" id="modal-title">
+                БНР Радио Интервю
+              </h3>
+              <div class="mt-2">
+                <p class="text-sm text-gray-500">
+                    <audio controls id="interview-audio">
+                        <source src="/src/interview.mp3" type="audio/mpeg">
+                        Your browser does not support the audio element.
+                    </audio>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+          <button type="button" id="interview-button-close" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+            Затвори
+          </button>
+        </div>
+      </div>
+    </div>
+</div>
+
+
+<!-- Interview Modal Script -->
+<script type="text/javascript">
+let modal = document.getElementById("interview-modal");
+let btn = document.getElementById("interview-button");
+let closeBtn = document.getElementById("interview-button-close");
+let interviewAudio = document.getElementById('interview-audio');
+let modalBg = document.getElementById('interview-modal-bg');
+btn.onclick = function() {
+    modal.style.display = "block";
+    interviewAudio.play();
+}
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+    interviewAudio.pause();
+}
+modalBg.onclick = function(event) {
+    modal.style.display = "none";
+    interviewAudio.pause();
+}
+</script>
+</body>
+</html>

@@ -27,11 +27,11 @@ body {
   }
 
 
-  nav a {
+  nav ul li {
     position: relative;
     transition: 0.2s;
   }
-  nav a::after {
+  nav ul li::after {
     position: absolute;
     content: "";
     width: 100%;
@@ -43,10 +43,10 @@ body {
     transform: scaleX(0);
     transform-origin: right;
   }
-  nav a:hover {
+  nav ul li:hover {
     color: #48a923;
   }
-  nav a:hover::after {
+  nav ul li:hover::after {
     transform: scaleX(1);
     transform-origin: left;
   }

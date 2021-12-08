@@ -6,7 +6,15 @@ module.exports = {
 
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {}
+    extend: {
+      colors: {
+        'primary': "#48a923"
+      },
+      backgroundImage: {
+        'hero': "url('/src/img/bg.jpeg')",
+       }
+
+    }
   },
   variants: {
     extend: {},
