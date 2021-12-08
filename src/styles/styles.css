@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    margin: 0;
+    display: block;
+}
+
+.text-primary {
+    color: #48a923;
+}
+
+#nava {
+    position: fixed;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    overflow: hidden;
+}
+  
+  #hero #container {
+      position: relative;
+      height: 70vh;
+      background-image: url(/src/img/hero-bg.jpg);
+      margin: 5vh;
+  }
+
+
+  nav a {
+    position: relative;
+    transition: 0.2s;
+  }
+  nav a::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 2px;
+    top: 98%;
+    left: 0;
+    background: #48a923;
+    transition: transform 0.5s;
+    transform: scaleX(0);
+    transform-origin: right;
+  }
+  nav a:hover {
+    color: #48a923;
+  }
+  nav a:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
+
+  article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
