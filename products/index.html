@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/src/styles/tailwind.css" rel="stylesheet">
+    <link href="/src/styles/styles.css" rel="stylesheet">
+    <title>Domashno.org — Продукти</title>
+</head>
+<body>
+<!-- Navbar -->
+<header class="header sticky top-0 shadow-md flex bg-white m-5 ml-10 mr-10 rounded-xl border-2 border-primary border-solid border-opacity-30">
+    <!-- burger -->
+    <a href="" class="lg:hidden flex items-center justify-center bg-primary text-white hover:bg-white hover:text-primary duration-100 pl-4 pr-3">
+      <svg class="h-8 p-1" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-bars fa-w-14 fa-9x"><path fill="currentColor" d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z" class=""></path></svg>
+    </a>
+  
+    <div class="w-full flex items-center justify-between px-8">
+      <!-- Logo -->
+      <h1 class="ml-5 lg:ml-0">
+          <a href="">
+            <img src="/src/img/domashno-logo.png" draggable="true" class="lg:w-72 h-14 p-2 bg" alt="Domashno.org"/>
+          </a>
+      </h1>
+  
+      <!-- Navigation -->
+      <nav class="nav ?hidden lg:block font-semibold text-lg absolute top-full left-0 lg:relative lg:top-auto w-full">
+          <ul class="flex flex-col lg:flex-row items-center justify-center text-center bg-gray-100 text-gray-900 lg:bg-transparent lg:text-black">
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer active">
+                <a href="/">За Нас</a>
+              </li>
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer text-primary">
+                <a href="#">Продукти</a>
+              </li>
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer">
+                <a href="/volunteers">Доброволците</a>
+              </li>
+              <li class="w-full md:w-auto p-4 lg:border-b-2 cursor-pointer">
+                <a href="/village">Селото</a>
+              </li>
+          </ul>
+      </nav>
+  
+      <!-- Social --->
+      <div class="w-3/12 flex justify-end">
+          <a href="https://www.facebook.com/domashno.org" target="_blank" >
+              <svg alt="Facebook" fill="#3B5998" height=24 viewBox="0 0 16 16" width=24 xmlns=http://www.w3.org/2000/svg><path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/></svg>
+          </a>
+      </div>
+    </div>
+</header>
+
+<!-- Hero -->
+<section id="hero">
+    <div class="flex justify-center m-5 lg:m-20 mt-5 shadow-sm rounded-xl bg-hero text-white bg-no-repeat bg-center bg-cover">
+        <div class="m-16 pt-16 pb-16 text-center">
+            <h1 class="text-4xl text-center font-bold">Продукти</h1>
+            <h2 class="pt-3 text-2xl font-semibold">Доставяме лично или пращаме за сметка на получателя с Еконт, Спиди и Европът.</h2>
+        </div>
+    </div>
+</section>
+
+
+<!-- Products -->
+<section class="text-gray-600 body-font" id="products">
+    <div class="container px-5 py-24 mx-auto">
+      <div class="flex flex-wrap -m-4">
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/420x260">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">СЛЪНЧОГЛЕДОВ ТАХАН (печен) 190 мл.</h2>
+            <p class="mt-1">3 лв</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/421x261">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">Сироп от Лавандула (концентрат)</h2>
+            <p class="mt-1">720 мл - 7 лв — 314 мл - 4 лв.</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/422x262">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">СИРОП ОТ ЦВЯТ БЪЗ (концентрат)</h2>
+            <p class="mt-1">750 мл - 6 лв — 250 мл - 3 лв.</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/423x263">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">СЛАДКО ОТ СМОКИНИ 314 мл.</h2>
+            <p class="mt-1">4 лв</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">СЛАДКО ОТ ГОРСКИ КЪПИНИ 314 мл</h2>
+            <p class="mt-1">4 лв</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">НАТУРАЛНА РОЗОВА ВОДА 100 мл</h2>
+            <p class="mt-1">4 лв</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">НАТУРАЛНА ЛАВАНДУЛОВА ВОДА 100 мл</h2>
+            <p class="mt-1">4 лв</p>
+          </div>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+          <a class="block  h-48 rounded overflow-hidden">
+            <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+          </a>
+          <div class="mt-4">
+            <h2 class="text-gray-900 title-font text-lg font-medium">НАТУРАЛНА ВОДА ОТ РОЗМАРИН</h2>
+            <p class="mt-1">4 лв</p>
+          </div>
+        </div> 
+        <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ЖЪЛТО ЕНЬОВЧЕ 50 мл</h2>
+              <p class="mt-1">7 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ЖЪЛТ КАНТАРИОН 50 мл</h2>
+              <p class="mt-1">5 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ДИВА ЛАВАНДУЛА 50 мл</h2>
+              <p class="mt-1">5 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ МАТОЧИНА 50 мл</h2>
+              <p class="mt-1">6 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ПОЛСКИ ХВОЩ 50 мл</h2>
+              <p class="mt-1">5 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ЗЕЛЕНИ ОРЕХЧЕТА 50 мл</h2>
+              <p class="mt-1">5 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/427x267">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ДИВА ЛАВАНДУЛА сушен стрък 30 гр</h2>
+              <p class="mt-1">2 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ЖЪЛТ КАНТАРИОН сушен стрък 50 гр</h2>
+              <p class="mt-1">2 лв</p>
+            </div><!---->
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/424x264">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">БЯЛ РАВНЕЦ сушен стрък 50 гр</h2>
+              <p class="mt-1">2 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/425x265">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">МАТОЧИНА сушен стрък 50 гр</h2>
+              <p class="mt-1">5 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full" src="https://dummyimage.com/427x267">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">РИГАН сушен стрък 50 гр</h2>
+              <p class="mt-1">3 лв</p>
+            </div>
+          </div>
+          <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
+            <a class="block  h-48 rounded overflow-hidden">
+              <img alt="ecommerce" class="object-cover object-center w-full h-full block" src="https://dummyimage.com/428x268">
+            </a>
+            <div class="mt-4">
+              <h2 class="text-gray-900 title-font text-lg font-medium">ТЕТРА (СМРАДЛИКА) сушен стрък 50 гр</h2>
+              <p class="mt-1">2 лв</p>
+            </div>
+          </div>
+      </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+      <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left">
+        <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <img src="/src/img/domashno-logo.png" draggable="false" class="lg:w-72 h-14 p-2 bg" alt="Domashno.org"/>
+        </a>
+        <p class="mt-2 text-sm text-gray-400 text-left">- Вкусният Живот на Село</p>
+      </div>
+      <div class="flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">КАТЕГОРИИ</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">За Нас</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Продукти</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Доброволците</a>
+            </li>
+            <li>
+              <a class="text-gray-600 hover:text-gray-800">Селото</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">СОЦИАЛНИ</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="https://www.facebook.com/domashno.org" class="text-gray-600 hover:text-gray-800">Facebook</a>
+            </li>
+          </nav>
+        </div>
+        <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+          <h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3">СВЪРЖЕТЕ СЕ С НАС</h2>
+          <nav class="list-none mb-10">
+            <li>
+              <a href="https://www.facebook.com/domashno.org/" class="text-gray-600 hover:text-gray-800">Facebook</a>
+            </li>
+            <li>
+              <a href="mailto:boyan@domashno.org" class="text-gray-600 hover:text-gray-800">Имейл: boyan@domashno.org</a>
+            </li>
+            <li>
+              <a href="tel:+359000000000" class="text-gray-600 hover:text-gray-800">Телефон: +359 000 000 000</a>
+            </li>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <div class="bg-gray-100">
+      <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+        <p class="text-gray-500 text-sm text-center sm:text-left">© 2022 Domashno.org —
+          <a href="https://www.joddy.dev" class="text-gray-600 ml-1" target="_blank">Site by joddy.dev</a>
+        </p>
+      </div>
+    </div>
+</footer>
+</body>
+</html>

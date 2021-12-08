@@ -18,13 +18,6 @@ body {
     width: 100%;
     overflow: hidden;
 }
-  
-  #hero #container {
-      position: relative;
-      height: 70vh;
-      background-image: url(/src/img/hero-bg.jpg);
-      margin: 5vh;
-  }
 
 
   nav ul li {
