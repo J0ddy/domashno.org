@@ -21299,6 +21299,22 @@ video {
   stroke: currentColor;
 }
 
+.stroke-red {
+  stroke: #ef4444;
+}
+
+.stroke-green {
+  stroke: #10b981;
+}
+
+.stroke-blue {
+  stroke: #3b82f6;
+}
+
+.stroke-black {
+  stroke: #000;
+}
+
 .stroke-0 {
   stroke-width: 0;
 }
@@ -53067,6 +53083,22 @@ video {
     stroke: currentColor;
   }
 
+  .sm\:stroke-red {
+    stroke: #ef4444;
+  }
+
+  .sm\:stroke-green {
+    stroke: #10b981;
+  }
+
+  .sm\:stroke-blue {
+    stroke: #3b82f6;
+  }
+
+  .sm\:stroke-black {
+    stroke: #000;
+  }
+
   .sm\:stroke-0 {
     stroke-width: 0;
   }
@@ -84477,6 +84509,22 @@ video {
 
   .md\:stroke-current {
     stroke: currentColor;
+  }
+
+  .md\:stroke-red {
+    stroke: #ef4444;
+  }
+
+  .md\:stroke-green {
+    stroke: #10b981;
+  }
+
+  .md\:stroke-blue {
+    stroke: #3b82f6;
+  }
+
+  .md\:stroke-black {
+    stroke: #000;
   }
 
   .md\:stroke-0 {
@@ -115891,6 +115939,22 @@ video {
     stroke: currentColor;
   }
 
+  .lg\:stroke-red {
+    stroke: #ef4444;
+  }
+
+  .lg\:stroke-green {
+    stroke: #10b981;
+  }
+
+  .lg\:stroke-blue {
+    stroke: #3b82f6;
+  }
+
+  .lg\:stroke-black {
+    stroke: #000;
+  }
+
   .lg\:stroke-0 {
     stroke-width: 0;
   }
@@ -147303,6 +147367,22 @@ video {
     stroke: currentColor;
   }
 
+  .xl\:stroke-red {
+    stroke: #ef4444;
+  }
+
+  .xl\:stroke-green {
+    stroke: #10b981;
+  }
+
+  .xl\:stroke-blue {
+    stroke: #3b82f6;
+  }
+
+  .xl\:stroke-black {
+    stroke: #000;
+  }
+
   .xl\:stroke-0 {
     stroke-width: 0;
   }
@@ -178713,6 +178793,22 @@ video {
 
   .\32xl\:stroke-current {
     stroke: currentColor;
+  }
+
+  .\32xl\:stroke-red {
+    stroke: #ef4444;
+  }
+
+  .\32xl\:stroke-green {
+    stroke: #10b981;
+  }
+
+  .\32xl\:stroke-blue {
+    stroke: #3b82f6;
+  }
+
+  .\32xl\:stroke-black {
+    stroke: #000;
   }
 
   .\32xl\:stroke-0 {

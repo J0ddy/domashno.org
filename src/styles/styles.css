@@ -19,6 +19,15 @@ body {
     overflow: hidden;
 }
 
+.lang-selector {
+  -webkit-user-select: none;  
+  -moz-user-select: none;    
+  -ms-user-select: none;      
+  user-select: none;
+  cursor: pointer;
+}
+
+
 
   nav ul li {
     position: relative;
@@ -47,4 +56,9 @@ body {
   article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
     display: block;
+}
+
+.text-outline-black {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(44, 44, 44, 0.8);
 }
