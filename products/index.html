@@ -17,7 +17,7 @@
 </head>
 <body>
 <!-- Navbar -->
-<header class="header sticky top-0 shadow-md flex bg-white m-5 ml-10 mr-10 rounded-xl border-2 border-primary border-solid border-opacity-30">
+<header class="header sticky top-0 shadow-md flex bg-white m-5 ml-10 mr-10 rounded-xl border-2 border-primary border-solid border-opacity-30 z-40">
     <!-- burger -->
     <a href="" class="lg:hidden flex items-center justify-center bg-primary text-white hover:bg-white hover:text-primary duration-100 pl-4 pr-3">
       <svg class="h-8 p-1" aria-hidden="true" focusable="false" data-prefix="fal" data-icon="bars" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg-inline--fa fa-bars fa-w-14 fa-9x"><path fill="currentColor" d="M442 114H6a6 6 0 0 1-6-6V84a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6zm0 160H6a6 6 0 0 1-6-6v-24a6 6 0 0 1 6-6h436a6 6 0 0 1 6 6v24a6 6 0 0 1-6 6z" class=""></path></svg>
@@ -74,8 +74,8 @@
     <div class="container px-5 py-24 mx-auto">
       <div class="flex flex-wrap -m-4">
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
-          <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="СЛЪНЧОГЛЕДОВ ТАХАН" class="object-cover object-center w-full h-full block" src="/products/img/tahan.jpg">
+          <a class="flex h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer" style="display:inherit;">
+            <img alt="СЛЪНЧОГЛЕДОВ ТАХАН" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/tahan.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium transform">СЛЪНЧОГЛЕДОВ ТАХАН (печен) 190 мл.</h2>
@@ -84,7 +84,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="Сироп от Лавандула" class="object-cover object-center w-full h-full block" src="/products/img/lavandlula720.jpg">
+            <img alt="Сироп от Лавандула" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/lavandlula720.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">Сироп от Лавандула (концентрат)</h2>
@@ -93,7 +93,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="СИРОП ОТ ЦВЯТ БЪЗ" class="object-cover object-center w-full h-full block" src="/products/img/baz2.jpg">
+            <img alt="СИРОП ОТ ЦВЯТ БЪЗ" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/baz2.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">СИРОП ОТ ЦВЯТ БЪЗ (концентрат)</h2>
@@ -102,7 +102,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="СЛАДКО ОТ СМОКИНИ" class="object-cover object-center w-full h-full block" src="/products/img/smokini.jpg">
+            <img alt="СЛАДКО ОТ СМОКИНИ" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/smokini.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">СЛАДКО ОТ СМОКИНИ 314 мл.</h2>
@@ -111,7 +111,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="СЛАДКО ОТ ГОРСКИ КЪПИНИ" class="object-cover object-center w-full h-full block" src="/products/img/kapini.jpg">
+            <img alt="СЛАДКО ОТ ГОРСКИ КЪПИНИ" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/kapini.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">СЛАДКО ОТ ГОРСКИ КЪПИНИ 314 мл</h2>
@@ -120,7 +120,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="НАТУРАЛНА РОЗОВА ВОДА" class="object-cover object-center w-full h-full block" src="/products/img/rozova.jpg">
+            <img alt="НАТУРАЛНА РОЗОВА ВОДА" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/rozova.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">НАТУРАЛНА РОЗОВА ВОДА 100 мл</h2>
@@ -129,7 +129,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="НАТУРАЛНА ЛАВАНДУЛОВА ВОДА" class="object-cover object-center w-full h-full block" src="/products/img/lavandulova.jpg">
+            <img alt="НАТУРАЛНА ЛАВАНДУЛОВА ВОДА" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/lavandulova.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">НАТУРАЛНА ЛАВАНДУЛОВА ВОДА 100 мл</h2>
@@ -138,7 +138,7 @@
         </div>
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
           <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-            <img alt="НАТУРАЛНА ВОДА ОТ РОЗМАРИН" class="object-cover object-center w-full h-full block" src="/products/img/rozemarin.jpg">
+            <img alt="НАТУРАЛНА ВОДА ОТ РОЗМАРИН" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/rozemarin.jpg">
           </a>
           <div class="mt-4">
             <h2 class="text-gray-900 title-font text-lg font-medium">НАТУРАЛНА ВОДА ОТ РОЗМАРИН</h2>
@@ -147,7 +147,7 @@
         </div> 
         <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТИНКТУРА ОТ ЖЪЛТО ЕНЬОВЧЕ" class="object-cover object-center w-full h-full block" src="/products/img/enovche.jpg">
+              <img alt="ТИНКТУРА ОТ ЖЪЛТО ЕНЬОВЧЕ" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/enovche.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ЖЪЛТО ЕНЬОВЧЕ 50 мл</h2>
@@ -156,7 +156,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТИНКТУРА ОТ ЖЪЛТ КАНТАРИОН" class="object-cover object-center w-full h-full block" src="/products/img/kantarin.tink.jpg">
+              <img alt="ТИНКТУРА ОТ ЖЪЛТ КАНТАРИОН" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/kantarin.tink.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ЖЪЛТ КАНТАРИОН 50 мл</h2>
@@ -165,7 +165,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТИНКТУРА ОТ ДИВА ЛАВАНДУЛА" class="object-cover object-center w-full h-full block" src="/products/img/lavandula.tink.jpg">
+              <img alt="ТИНКТУРА ОТ ДИВА ЛАВАНДУЛА" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/lavandula.tink.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ДИВА ЛАВАНДУЛА 50 мл</h2>
@@ -174,7 +174,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТИНКТУРА ОТ МАТОЧИНА" class="object-cover object-center w-full h-full block" src="/products/img/mtochina.tink.jpg">
+              <img alt="ТИНКТУРА ОТ МАТОЧИНА" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/mtochina.tink.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ МАТОЧИНА 50 мл</h2>
@@ -183,7 +183,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТИНКТУРА ОТ ПОЛСКИ ХВОЩ" class="object-cover object-center w-full h-full block" src="/products/img/polskihvosh.jpg">
+              <img alt="ТИНКТУРА ОТ ПОЛСКИ ХВОЩ" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/polskihvosh.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ПОЛСКИ ХВОЩ 50 мл</h2>
@@ -192,7 +192,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТИНКТУРА ОТ ЗЕЛЕНИ ОРЕХЧЕТА" class="object-cover object-center w-full h-full block" src="/products/img/tink.jpg">
+              <img alt="ТИНКТУРА ОТ ЗЕЛЕНИ ОРЕХЧЕТА" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/tink.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТИНКТУРА ОТ ЗЕЛЕНИ ОРЕХЧЕТА 50 мл</h2>
@@ -201,7 +201,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ДИВА ЛАВАНДУЛА сушен стрък" class="object-cover object-center w-full h-full block" src="/products/img/lavanda30.jpg">
+              <img alt="ДИВА ЛАВАНДУЛА сушен стрък" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/lavanda30.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ДИВА ЛАВАНДУЛА сушен стрък 30 гр</h2>
@@ -210,7 +210,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ЖЪЛТ КАНТАРИОН сушен стрък" class="object-cover object-center w-full h-full block" src="/products/img/kantarion.jpg">
+              <img alt="ЖЪЛТ КАНТАРИОН сушен стрък" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/kantarion.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ЖЪЛТ КАНТАРИОН сушен стрък 50 гр</h2>
@@ -219,7 +219,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="БЯЛ РАВНЕЦ сушен стрък" class="object-cover object-center w-full h-full block" src="/products/img/bravnec.jpg">
+              <img alt="БЯЛ РАВНЕЦ сушен стрък" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/bravnec.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">БЯЛ РАВНЕЦ сушен стрък 50 гр</h2>
@@ -228,7 +228,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="МАТОЧИНА сушен стрък" class="object-cover object-center w-full h-full block" src="/products/img/matochina.jpg">
+              <img alt="МАТОЧИНА сушен стрък" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/matochina.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">МАТОЧИНА сушен стрък 50 гр</h2>
@@ -237,7 +237,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="РИГАН сушен стрък" class="object-cover object-center w-full h-full" src="/products/img/rigan.jpg">
+              <img alt="РИГАН сушен стрък" class="object-cover object-center w-full h-full" onclick="onClick(this)" src="/products/img/rigan.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">РИГАН сушен стрък 50 гр</h2>
@@ -246,7 +246,7 @@
           </div>
           <div class="lg:w-1/4 md:w-1/2 p-4 w-full">
             <a class="block h-60 rounded overflow-hidden hover:shadow-xl duration-300 transform hover:scale-110 cursor-pointer">
-              <img alt="ТЕТРА (СМРАДЛИКА) сушен стрък" class="object-cover object-center w-full h-full block" src="/products/img/tetra.jpg">
+              <img alt="ТЕТРА (СМРАДЛИКА) сушен стрък" class="object-cover object-center w-full h-full block" onclick="onClick(this)" src="/products/img/tetra.jpg">
             </a>
             <div class="mt-4">
               <h2 class="text-gray-900 title-font text-lg font-medium">ТЕТРА (СМРАДЛИКА) сушен стрък 50 гр</h2>
@@ -256,6 +256,36 @@
       </div>
     </div>
 </section>
+
+<div id="image-modal" class="hidden fixed z-10 inset-0 overflow-y-auto" aria-labelledby="modal-title" role="dialog" aria-modal="true">
+  <div class="flex items-end justify-center min-h-screen pt-4 px-4 pb-20 text-center sm:block sm:p-0">
+    <div class="fixed inset-0 bg-gray-200 bg-opacity-75 transition-opacity" id="image-modal-bg" aria-hidden="true"></div>
+
+    <span class="hidden sm:inline-block sm:align-middle sm:h-screen" aria-hidden="true">&#8203;</span>
+
+    <div class="inline-block align-bottom bg-white rounded-lg text-left overflow-hidden shadow-xl transform transition-all sm:my-8 sm:align-middle sm:max-w-lg sm:w-full">
+      <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+        <div class="sm:flex sm:items-start">
+          <div class="mt-3 text-center sm:mt-0 sm:ml-4 sm:text-left">
+            <h3 class="text-lg leading-6 font-medium text-gray-900 text-center" id="image-title">
+              
+            </h3>
+            <div class="mt-2 flex justify-center">
+              <div class="container h-1/5 flex justify-center">
+                <img src="" id="image-img">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="bg-gray-50 px-4 py-3 sm:px-6 sm:flex sm:flex-row-reverse">
+        <button type="button" id="image-button-close" class="mt-3 w-full inline-flex justify-center rounded-md border border-gray-300 shadow-sm px-4 py-2 bg-white text-base font-medium text-gray-700 hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 sm:mt-0 sm:ml-3 sm:w-auto sm:text-sm">
+          Затвори
+        </button>
+      </div>
+    </div>
+  </div>
+</div>
 
 <!-- Footer -->
 <footer class="text-gray-600 body-font">
@@ -316,5 +346,47 @@
       </div>
     </div>
 </footer>
+
+
+
+<!-- Language Selector Script -->
+<script type="text/javascript">
+  var selector = document.getElementById("lang-selector");
+  let menu = document.getElementById("lang-selector-menu");
+  selector.onclick = function() {
+      if (menu.style.display == "block") {
+        menu.style.display = "none";
+      } else {
+        menu.style.display = "block";
+      }
+  }
+</script>
+
+
+<!-- Image Popup Script -->
+<script type="text/javascript">
+
+  // title = modal-title
+  // image = image-img
+var modal = document.getElementById('image-modal');
+var imageInModal = document.getElementById("image-img");
+let closeBtn = document.getElementById("image-button-close");
+let modalBg = document.getElementById('image-modal-bg');
+
+function onClick(element) {
+  //document.getElementById('modal-title').innerHTML = element.getAttribute("alt");
+  imageInModal.src = element.src;
+  modal.style.display = "block";
+  console.log("lad")
+}
+
+closeBtn.onclick = function() {
+    modal.style.display = "none";
+}
+modalBg.onclick = function(event) {
+    modal.style.display = "none";
+}
+</script>
+
 </body>
 </html>
