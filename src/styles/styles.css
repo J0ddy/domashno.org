@@ -66,3 +66,9 @@ footer, header, hgroup, menu, nav, section {
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(44, 44, 44, 0.8);
 }
+
+.product {
+  width: 120px;
+  height: auto;
+  margin: auto;
+}
