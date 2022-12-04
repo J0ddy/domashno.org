@@ -17853,6 +17853,10 @@ video {
   background-image: url('/src/img/hero2.jpeg');
 }
 
+.bg-hero-c {
+  background-image: url('/src/img/hero-c.jpg');
+}
+
 .from-transparent {
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
